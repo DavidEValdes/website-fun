@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.fdc7fcaf.css",
-    "main.js": "/static/js/main.e6fff66b.js",
+    "main.js": "/static/js/main.af0df9cb.js",
     "static/media/misae-profile.jpeg": "/static/media/misae-profile.0e208c777902af3d85ce.jpeg",
     "static/media/Myoho-Therapy-final.jpg": "/static/media/Myoho-Therapy-final.dd9339e07694bca176a6.jpg",
     "index.html": "/index.html",
     "main.fdc7fcaf.css.map": "/static/css/main.fdc7fcaf.css.map",
-    "main.e6fff66b.js.map": "/static/js/main.e6fff66b.js.map"
+    "main.af0df9cb.js.map": "/static/js/main.af0df9cb.js.map"
   },
   "entrypoints": [
     "static/css/main.fdc7fcaf.css",
-    "static/js/main.e6fff66b.js"
+    "static/js/main.af0df9cb.js"
   ]
 }
