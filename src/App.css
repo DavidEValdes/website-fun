@@ -147,7 +147,7 @@ header.scrolled {
   align-items: flex-start;
   justify-content: center;
   padding: 6rem 0 0;
-  min-height: 90vh;
+  min-height: 75vh;
   width: 100%;
   background-color: var(--background);
 }
@@ -194,8 +194,8 @@ header.scrolled {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
-  padding: 4rem 2rem 0;
+  gap: 2rem;
+  padding: 3rem 2rem 0;
   margin: 0 auto;
 }
 
@@ -205,7 +205,7 @@ header.scrolled {
   text-align: center;
   max-width: 800px;
   width: 100%;
-  padding: 3rem;
+  padding: 2rem;
   background: white;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
