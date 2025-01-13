@@ -53,6 +53,8 @@ function App() {
           </div>
         </section>
 
+        <div className="section-divider"></div>
+
         <section className="about" id="about">
           <h2>About Me</h2>
           <div className="about-content">
@@ -69,6 +71,8 @@ function App() {
             </div>
           </div>
         </section>
+
+        <div className="section-divider"></div>
 
         <section className="story" id="story">
           <h2>Professional Timeline</h2>
@@ -137,6 +141,8 @@ function App() {
           </div>
         </section>
 
+        <div className="section-divider"></div>
+
         <section className="services" id="services">
           <h2>My Services</h2>
           <div className="services-grid">
@@ -177,6 +183,8 @@ function App() {
             </div>
           </div>
         </section>
+
+        <div className="section-divider"></div>
 
         <section className="contact" id="contact">
           <h2>Contact Me</h2>
