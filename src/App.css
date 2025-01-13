@@ -1029,6 +1029,7 @@ p {
 .header-phone {
   color: var(--text);
   font-size: 0.85rem;
+  font-weight: 700;
   opacity: 0.8;
   text-align: center;
 }
