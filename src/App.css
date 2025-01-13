@@ -392,9 +392,14 @@ section h2 {
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 6rem;
-  align-items: center;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-text {
+  padding-right: 2rem;
+  text-align: left;
 }
 
 .therapist-image {
@@ -434,10 +439,6 @@ section h2 {
   transform: scale(1.03);
 }
 
-.about-text {
-  padding-right: 2rem;
-}
-
 .about h2 {
   font-size: 2.5rem;
   font-weight: 600;
@@ -474,6 +475,31 @@ section h2 {
   
   .about-content {
     gap: 4rem;
+  }
+}
+
+@media (max-width: 968px) {
+  .about {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .therapist-image {
+    max-width: 300px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-text {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 2rem;
   }
 }
 
@@ -777,7 +803,38 @@ section h2 {
 }
 
 /* Responsive adjustments for about section */
-@media (max-width: 968px) {
+@media (max-width: 968px) and (min-width: 769px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .therapist-image {
+    max-width: 300px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-text {
+    padding-right: 0;
+    text-align: center !important;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .about-text p {
+    text-align: center !important;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 2rem 1.5rem;
+  }
+
   .about-content {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -790,8 +847,9 @@ section h2 {
 
   .about-text {
     padding-right: 0;
+    text-align: center;
   }
-} 
+}
 
 /* Specific spacing for services section */
 .services {

@@ -117,7 +117,7 @@ function App() {
               <div className="timeline-date">2016 - 2018</div>
               <div className="timeline-content">
                 <h3>Living Well Balanced</h3>
-                <h4>New York, NY</h4>
+                <h4>New York</h4>
                 <p>Massage Therapist working alongside chiropractors and wellness practitioners.</p>
               </div>
             </div>
