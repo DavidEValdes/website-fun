@@ -12,7 +12,7 @@ function App() {
             <img src={logoImage} alt="Myoho Therapy Logo" className="logo-image" />
           </div>
           <div className="header-right">
-            <a href="tel:+17182905658" className="book-now-button">Book Now</a>
+            <a href="tel:+17182905658" className="book-now-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> Book Now</a>
             <div className="header-phone">+1 718-290-5658</div>
           </div>
         </div>
@@ -29,6 +29,7 @@ function App() {
           </div>
           <div className="hero-content">
             <div className="hero-text">
+              <h1><span className="myoho">Myoho</span> <span className="therapy">Therapy</span></h1>
               <h2>Mobile Ortho Bionomy & Massage Therapy</h2>
               <h3>Serving Greater Orlando Area</h3>
               <p>Professional massage therapy services brought directly to your location</p>
