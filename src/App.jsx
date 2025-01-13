@@ -188,6 +188,7 @@ function App() {
             
             <div className="contact-buttons">
               <a href="tel:+1234567890" className="phone-button">📞 Call or Text</a>
+              <div className="contact-divider">or send an email below</div>
             </div>
             
             <form className="contact-form">
