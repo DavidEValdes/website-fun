@@ -30,7 +30,7 @@ function App() {
           <div className="hero-content">
             <div className="hero-text">
               <h1><span className="myoho">Myoho</span> <span className="therapy">Therapy</span></h1>
-              <h2>Mobile Ortho Bionomy & Massage Therapy</h2>
+              <h2>Mobile Ortho-Bionomy & Massage Therapy</h2>
               <h3>Serving Greater Orlando Area</h3>
               <p>Professional massage therapy services brought directly to your location</p>
             </div>
