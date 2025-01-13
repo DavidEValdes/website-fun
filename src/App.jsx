@@ -227,6 +227,10 @@ function App() {
               </div>
               <button type="submit" className="submit-button">Send Message</button>
             </form>
+            <div className="contact-links">
+              <a href="tel:+17182905658" className="contact-link">📞 +1 718-290-5658</a>
+              <a href="mailto:masae.shimomoto@gmail.com" className="contact-link">✉️ masae.shimomoto@gmail.com</a>
+            </div>
           </div>
         </section>
       </main>
