@@ -1,33 +1,20 @@
 {
-  "short_name": "Island Care Health",
-  "name": "Island Care Health | Boutique Physiotherapy & Wellness",
-  "description": "Boutique Physiotherapy & Wellness Studio in Grand Cayman",
+  "short_name": "Myoho Therapy",
+  "name": "Myoho Therapy - Mobile Massage Therapy",
   "icons": [
     {
-      "src": "favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
     },
     {
       "src": "favicon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "96x96"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#e53e3e",
-  "background_color": "#ffffff",
-  "categories": ["health", "medical", "fitness"],
-  "lang": "en-US"
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
