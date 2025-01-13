@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0836cd88.css",
+    "main.js": "/static/js/main.70d2c80d.js",
+    "static/js/453.cba7f03f.chunk.js": "/static/js/453.cba7f03f.chunk.js",
+    "static/media/hero-background.jpg": "/static/media/hero-background.a6e3c595d94d57c4fae9.jpg",
+    "static/media/image.png": "/static/media/image.cf745c4811c2ba196f13.png",
+    "static/media/logo.jpg": "/static/media/logo.fe53776b50b369f7eac1.jpg",
+    "static/media/lisa-cummins.avif": "/static/media/lisa-cummins.b42d9b8eefd2952d33f5.avif",
+    "index.html": "/index.html",
+    "main.0836cd88.css.map": "/static/css/main.0836cd88.css.map",
+    "main.70d2c80d.js.map": "/static/js/main.70d2c80d.js.map",
+    "453.cba7f03f.chunk.js.map": "/static/js/453.cba7f03f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0836cd88.css",
+    "static/js/main.70d2c80d.js"
+  ]
+}
