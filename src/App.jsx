@@ -57,7 +57,7 @@ function App() {
           <div className="hero-content">
             <div className="hero-text">
               <h1><span className="myoho">Myoho</span> <span className="therapy">Therapy</span></h1>
-              <h2>Mobile Ortho-Bionomy & Massage Therapy</h2>
+              <h2>Mobile Ortho-Bionomy® & Massage Therapy</h2>
               <h3>Serving Greater Orlando Area</h3>
               <p>Professional massage therapy services brought directly to your location</p>
             </div>
@@ -92,7 +92,7 @@ function App() {
             <div className="about-text">
               <p>As a Licensed Massage Therapist in both Florida and New York, and a Registered Practitioner of Ortho-Bionomy®, I bring over a decade of experience to my practice. Since graduating from the prestigious Swedish Institute, I've been practicing massage therapy since March 2009, continuously expanding my therapeutic approaches.</p>
               
-              <p>My practice integrates multiple modalities including Swedish massage, Shiatsu, Myofascial release, Trigger point manual therapy, Thai massage, and Ortho-Bionomy. This comprehensive approach helps facilitate the body's natural self-healing reflexes. In April 2021, I achieved registration as a Practitioner of Ortho-Bionomy, further enhancing my ability to provide effective, gentle therapeutic care.</p>
+              <p>My practice integrates multiple modalities including Swedish massage, Myofascial release, Trigger point manual therapy, Thai massage, and Ortho-Bionomy®. This comprehensive approach helps facilitate the body's natural self-healing reflexes. In April 2021, I achieved registration as a Practitioner of Ortho-Bionomy®, further enhancing my ability to provide effective, gentle therapeutic care.</p>
               
               <p>My path in therapeutic healing began with a deep fascination with the profound impact of human touch. Drawing from my Buddhist background, I've developed a holistic approach that recognizes the interconnectedness of body, mind, and environment. Through years of practice and continuous study, I've witnessed the transformative power of mindful, therapeutic touch.</p>
             </div>
@@ -161,8 +161,8 @@ function App() {
             <div className="timeline-milestone">
               <div className="milestone-content">
                 <span className="milestone-date">March 2009</span>
-                <h3>Swedish Institute Graduate</h3>
-                <p>Graduated from the prestigious Swedish Institute College of Health Sciences certified in Massage Therapy</p>
+                <h3>Swedish Institute</h3>
+                <p>Graduated from the prestigious Swedish Institute College of Health Sciences with an Associate in Occupational Studies (AOS) in Massage Therapy</p>
               </div>
             </div>
           </div>
@@ -186,24 +186,6 @@ function App() {
             </div>
             
             <div className="service-card">
-              <div className="service-icon">✧</div>
-              <h3>Holistic Healing</h3>
-              <p>Integrating traditional Eastern wisdom with modern therapeutic techniques to support your body's natural healing abilities and restore balance to body, mind, and spirit.</p>
-            </div>
-            
-            <div className="service-card">
-              <div className="service-icon">✤</div>
-              <h3>Thai Massage</h3>
-              <p>Traditional Thai massage incorporating stretching and pressure point therapy to improve flexibility and energy flow throughout the body.</p>
-            </div>
-            
-            <div className="service-card">
-              <div className="service-icon">❉</div>
-              <h3>Sports Massage</h3>
-              <p>Targeted massage therapy designed for athletes and active individuals to enhance performance, prevent injuries, and speed up recovery.</p>
-            </div>
-            
-            <div className="service-card">
               <div className="service-icon">✺</div>
               <h3>Mobile Service</h3>
               <p>Convenient massage therapy brought to your location. Available throughout the Greater Orlando area for your comfort and convenience.</p>
@@ -220,7 +202,8 @@ function App() {
             <p className="clinician-name">Masae Shimomoto, LMT</p>
             <p>Professional Mobile Massage Therapy</p>
             <p>Serving Greater Orlando, Florida</p>
-            <p>Licensed Massage Therapist & Ortho-Bionomy Practitioner</p>
+            <p>Licensed Massage Therapist & Ortho-Bionomy® Practitioner</p>
+            <p className="license-numbers">Florida License: MA 95709 | New York License: 022991</p>
             
             <div className="contact-buttons">
               <a href="tel:+1234567890" className="phone-button">📞 Call or Text</a>
