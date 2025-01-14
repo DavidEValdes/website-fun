@@ -203,7 +203,10 @@ function App() {
             <p>Professional Mobile Massage Therapy</p>
             <p>Serving Greater Orlando, Florida</p>
             <p>Licensed Massage Therapist & Ortho-Bionomy® Practitioner</p>
-            <p className="license-numbers">Florida License: MA 95709 | New York License: 022991</p>
+            <p className="license-numbers">
+              <span>Florida License: MA 95709</span>
+              <span>New York License: 022991</span>
+            </p>
             
             <div className="contact-buttons">
               <a href="tel:+1234567890" className="phone-button">📞 Call or Text</a>
