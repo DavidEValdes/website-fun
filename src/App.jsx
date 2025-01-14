@@ -4,6 +4,33 @@ import logoImage from './assets/Myoho-Therapy-final.jpg';
 import profileImage from './assets/misae-profile.jpeg';
 
 function App() {
+  const [submitStatus, setSubmitStatus] = React.useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const data = new FormData(form);
+    
+    try {
+      const response = await fetch('https://formspree.io/f/xovvrbbn', {
+        method: 'POST',
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        form.reset();
+        setSubmitStatus('success');
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      setSubmitStatus('error');
+    }
+  };
+
   return (
     <div className="App">
       <header>
@@ -200,11 +227,11 @@ function App() {
               <div className="contact-divider">or send an email below</div>
             </div>
             
-            <form className="contact-form">
+            <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <input 
                   type="text" 
-                  name="user_name" 
+                  name="name" 
                   placeholder="Your Name" 
                   required 
                 />
@@ -212,7 +239,7 @@ function App() {
               <div className="form-group">
                 <input 
                   type="email" 
-                  name="user_email" 
+                  name="email" 
                   placeholder="Your Email" 
                   required 
                 />
@@ -226,6 +253,12 @@ function App() {
                 ></textarea>
               </div>
               <button type="submit" className="submit-button">Send Message</button>
+              {submitStatus === 'success' && (
+                <div className="submit-success">Thank you for your message! I will get back to you soon.</div>
+              )}
+              {submitStatus === 'error' && (
+                <div className="submit-error">Oops! There was a problem sending your message. Please try again.</div>
+              )}
             </form>
             <div className="contact-links">
               <a href="tel:+17182905658" className="contact-link">📞 +1 718-290-5658</a>
