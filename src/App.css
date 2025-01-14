@@ -609,9 +609,29 @@ section h2 {
 }
 
 .contact-info h3 {
-  font-size: 2rem;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  margin: 0 auto 1rem;
+  font-weight: 300;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 0.9;
+}
+
+.contact-info h3 .myoho {
   color: var(--primary);
-  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-bottom: 0.3rem;
+}
+
+.contact-info h3 .therapy {
+  color: var(--secondary);
+  opacity: 1;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: -1px;
+  text-transform: none;
+  margin-top: 0;
 }
 
 .clinician-name {

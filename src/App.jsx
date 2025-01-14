@@ -198,7 +198,7 @@ function App() {
         <section className="contact" id="contact">
           <h2>Contact Me</h2>
           <div className="contact-info">
-            <h3>Myoho <span className="therapy-text">Therapy</span></h3>
+            <h3><span className="myoho">Myoho</span> <span className="therapy">Therapy</span></h3>
             <p className="clinician-name">Masae Shimomoto, LMT</p>
             <p>Professional Mobile Massage Therapy</p>
             <p>Serving Greater Orlando, Florida</p>
