@@ -162,7 +162,7 @@ function App() {
               <div className="milestone-content">
                 <span className="milestone-date">March 2009</span>
                 <h3>Swedish Institute</h3>
-                <p>Graduated from the prestigious Swedish Institute College of Health Sciences with an Associate in Occupational Studies (AOS) in Massage Therapy</p>
+                <p>Graduated from the prestigious Swedish Institute College of Health Sciences with an Associate in Occupational Studies in Massage Therapy</p>
               </div>
             </div>
           </div>
