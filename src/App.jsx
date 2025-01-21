@@ -118,7 +118,7 @@ function App() {
               <div className="milestone-content">
                 <span className="milestone-date">April 2021</span>
                 <h3>Registered Practitioner of Ortho-Bionomy®</h3>
-                <p>Achieved professional registration as an Ortho-Bionomy® practitioner</p>
+                <p>Achieved registration as an Ortho-Bionomy® practitioner</p>
               </div>
             </div>
 
