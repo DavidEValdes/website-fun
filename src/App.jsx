@@ -256,6 +256,7 @@ function App() {
 
       <footer>
         <p>&copy; {new Date().getFullYear()} Myoho Therapy. All rights reserved.</p>
+        <p className="trademark-notice">Ortho-Bionomy® is a registered trademark of the Society of Ortho-Bionomy International, Inc. and is used with permission.</p>
       </footer>
     </div>
   );
