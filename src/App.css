@@ -1145,6 +1145,16 @@ section h2 {
   .map-container iframe {
     height: 300px;
   }
+
+  /* Make hero background more visible on small screens */
+  .hero::after {
+    /* keep the original overlay opacity but use normal blending on mobile as requested */
+    background: linear-gradient(135deg, 
+      rgba(229, 164, 179, 0.97) 0%,
+      rgba(138, 181, 71, 0.97) 100%
+    );
+    mix-blend-mode: normal;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1617,4 +1627,8 @@ footer p {
 }
 
 .contact-buttons {
+  /* ensure contact buttons keep layout on very small screens */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
